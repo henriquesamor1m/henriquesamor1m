@@ -20,7 +20,7 @@ public class kmCarro {
         } else if (kml>12) {
             System.out.println("SUPER ECONOMICO");
         }else {
-            System.out.println("ERROR");
+            System.out.println("INVALIDO");
         }
     }
 }
