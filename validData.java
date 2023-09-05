@@ -15,8 +15,8 @@ public class validData {
     }
 
 
-    public static boolean Validardata(String input) {
-        String[] parts = input.split("/");
+    public static boolean Validardata(String entrada) {
+        String[] parts = entrada.split("/");
         if (parts.length != 3) {
             return false;
         }
